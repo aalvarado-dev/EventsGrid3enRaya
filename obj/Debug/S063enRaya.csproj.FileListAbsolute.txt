@@ -1,0 +1,16 @@
+C:\Users\alvar\source\repos\S063enRaya\bin\Debug\S063enRaya.exe.config
+C:\Users\alvar\source\repos\S063enRaya\bin\Debug\S063enRaya.exe
+C:\Users\alvar\source\repos\S063enRaya\bin\Debug\S063enRaya.pdb
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.csproj.AssemblyReference.cache
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\MainWindow.g.cs
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\App.g.cs
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya_MarkupCompile.cache
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya_MarkupCompile.lref
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\MainWindow.baml
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.g.resources
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.Properties.Resources.resources
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.csproj.GenerateResource.cache
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.csproj.CoreCompileInputs.cache
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.exe
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\S063enRaya.pdb
+C:\Users\alvar\source\repos\S063enRaya\obj\Debug\App.baml

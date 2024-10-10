@@ -5,8 +5,54 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:S063enRaya"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="TicTacToe" Height="450" Width="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+    <Grid Style="{StaticResource Background}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="JUGADOR (0) : " VerticalContentAlignment="Center" HorizontalAlignment="Center"/>
+        <Label Grid.Row="0" Grid.Column="4" Content="JUGADOR (X) : " VerticalContentAlignment="Center" HorizontalAlignment="Center"/>
+        <Label Grid.Row="0" Grid.Column="2" Content="VS" VerticalContentAlignment="Center" HorizontalAlignment="Center" FontSize="22"/>
+
+        <Button x:Name="btn1" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" Margin="5" VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+        <Button x:Name="btn2" Grid.Column="2" Grid.Row="1" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+        <Button x:Name="btn3" Grid.Column="3" Grid.Row="1" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+
+        <Button x:Name="btn4" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+        <Button x:Name="btn5" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+        <Button x:Name="btn6" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+
+
+        <Button x:Name="btn7" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+        <Button x:Name="btn8" Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+        <Button x:Name="btn9" Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" Margin="5"  VerticalAlignment="Center" Width="100" Height="100" Click="PlayerClick" FontSize="70" Background="LightBlue"/>
+
+        <Button Content="REINICIAR" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="2" VerticalAlignment="Center" Height="54" Width="103"  Click="restartGame" Background="AliceBlue"/>
+
+        <Button x:Name="TurnoNPC" Content="TURNO NPC" HorizontalAlignment="Center" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center" Height="50" Width="100"  Click="NPC" Background="Coral"/>
+        <Label x:Name="PLAYERNPC" Content="NPC (X): " HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="50" Width="100" Grid.Row="4" Grid.Column="4" Foreground="Coral" FontWeight="Black"/>
+        <Label x:Name="Info" Content="Presionar el botón para el turno del NPC " HorizontalAlignment="Left" Margin="5,49,0,0" VerticalAlignment="Top" Height="44" Width="240" Grid.Row="4" Grid.Column="2"/>
+
+
+
     </Grid>
 </Window>
+
+<!--
+
+</Grid>-->

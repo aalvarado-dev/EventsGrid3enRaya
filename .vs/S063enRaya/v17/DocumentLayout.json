@@ -7,7 +7,11 @@
       "RelativeMoniker": "D:0:0:{90DE1BB3-8B4F-4654-96AA-FEF75641229B}|S063enRaya.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90DE1BB3-8B4F-4654-96AA-FEF75641229B}|S063enRaya.csproj|c:\\users\\alvar\\source\\repos\\s063enraya\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{90DE1BB3-8B4F-4654-96AA-FEF75641229B}|S063enRaya.csproj|c:\\users\\alvar\\source\\repos\\s063enraya\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{90DE1BB3-8B4F-4654-96AA-FEF75641229B}|S063enRaya.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90DE1BB3-8B4F-4654-96AA-FEF75641229B}|S063enRaya.csproj|C:\\Users\\alvar\\source\\repos\\S063enRaya\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90DE1BB3-8B4F-4654-96AA-FEF75641229B}|S063enRaya.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\S063enRaya\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\alvar\\source\\repos\\S063enRaya\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-10T09:34:36.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,13 +54,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alvar\\source\\repos\\S063enRaya\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\alvar\\source\\repos\\S063enRaya\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T09:06:30.432Z",
               "EditorCaption": ""

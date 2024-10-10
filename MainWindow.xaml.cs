@@ -24,5 +24,20 @@ namespace S063enRaya
         {
             InitializeComponent();
         }
+
+        private void PlayerClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void restartGame(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NPC(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
